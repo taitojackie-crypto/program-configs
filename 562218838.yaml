@@ -37,7 +37,7 @@ Anchor_OT: &Anchor_OT '^(?!.*(DIRECT|直接连接|香港|台湾|台灣|日本|�
 # ███████████████████████████ 核心配置 ███████████████████████████
 # ══ 基础配置 ══
 mode: rule                                                              # 工作模式  rule（规则模式）/ global（全局模式）/ direct（直连模式）
-ipv6: true                                                              # 网络协议  是否启用 IPv6 支持
+ipv6: false                                                              # 网络协议  是否启用 IPv6 支持
 mixed-port: 7893                                                        # 监听端口  HTTP + SOCKS5 混合代理端口
 allow-lan: true                                                         # 局域连接  是否允许局域网设备连接
 bind-address: "*"                                                       # 监听接口  监听的网络接口（* 表示所有接口）
@@ -86,7 +86,7 @@ sniffer:
 # ══ DNS配置 ══
 dns:
   enable: true                                                          # 解析服务  启用 Clash 内置 DNS 服务
-  ipv6: true                                                            # 网络协议  启用 IPv6 DNS 解析支持
+  ipv6: false                                                            # 网络协议  启用 IPv6 DNS 解析支持
   listen: 0.0.0.0:7874                                                  # 监听服务  DNS 服务监听地址与端口
   enhanced-mode: fake-ip                                                # 增强模式  FDNS 增强模式（Fake-IP，用于防止 DNS 泄露）
   fake-ip-range: 198.18.0.1/16                                          # 虚拟地址  Fake-IP 虚拟地址池范围
