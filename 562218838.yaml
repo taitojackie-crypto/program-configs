@@ -98,6 +98,7 @@ dns:
     - "rule-set:cn_domain"                                              # 真实解析  大陆域名数据
     - '*.163.com'
     - '*.126.com'
+    - '*.netease.mail'
     - 'imap.*'
     - 'smtp.*'
     - 'pop.*'
