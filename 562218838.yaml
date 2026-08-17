@@ -164,7 +164,8 @@ proxy-groups:
 # ███████████████████████████ 规则匹配 ███████████████████████████
 rules:
   - DOMAIN-SUFFIX,ecoccpit.net,国内直连
-  - DOMAIN-SUFFIX,zerotier.com,国内直连
+  - DOMAIN-SUFFIX,taitoindustry.com,国内直连
+  - DOMAIN-SUFFIX,taito-valve.com,国内直连
   - RULE-SET,private_domain,国内直连                                    # Private
   - RULE-SET,private_ip,国内直连,no-resolve                             # Private
   - RULE-SET,openai_domain,ChatGPT                                      # ChatGPT
